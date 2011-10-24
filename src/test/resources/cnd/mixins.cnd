@@ -1,0 +1,10 @@
+<'transl'='http://www.instance.cz/ns/transl/1.0'>
+
+[transl:content] mixin
+	- transl:wordcount (long)
+	- transl:text (string)
+	- transl:size (long)
+	- transl:checksum (long)
+
+[transl:file] mixin
+	+ transl:translatedcontent (nt:resource)

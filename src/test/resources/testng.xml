@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="JCR" verbose="5" preserve-order="true">
+	<test name="Repository">
+		<classes>
+			<class name="cz.instance.liferay.test.jcr.ms">
+			</class>
+		</classes>
+	</test>
+</suite>
